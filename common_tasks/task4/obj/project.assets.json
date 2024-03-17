@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\xaknazarov_sharasul\\.nuget\\packages\\": {}
+    "C:\\Users\\sh.haqnazarov\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\xaknazarov_sharasul\\Desktop\\zadachnik_c#\\common_tasks\\task4\\task4.csproj",
+      "projectUniqueName": "C:\\Users\\sh.haqnazarov\\Desktop\\zadachnik_c#\\zadachnik_c-\\common_tasks\\task4\\task4.csproj",
       "projectName": "task4",
-      "projectPath": "C:\\Users\\xaknazarov_sharasul\\Desktop\\zadachnik_c#\\common_tasks\\task4\\task4.csproj",
-      "packagesPath": "C:\\Users\\xaknazarov_sharasul\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\xaknazarov_sharasul\\Desktop\\zadachnik_c#\\common_tasks\\task4\\obj\\",
+      "projectPath": "C:\\Users\\sh.haqnazarov\\Desktop\\zadachnik_c#\\zadachnik_c-\\common_tasks\\task4\\task4.csproj",
+      "packagesPath": "C:\\Users\\sh.haqnazarov\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sh.haqnazarov\\Desktop\\zadachnik_c#\\zadachnik_c-\\common_tasks\\task4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\xaknazarov_sharasul\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\sh.haqnazarov\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
