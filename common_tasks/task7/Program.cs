@@ -106,18 +106,36 @@
 
 // Дано натуральное число n. Найти сумму:  n2 + (n+1)2 + … + (2n)2.
 
-Console.WriteLine("Введите целое число");
-int n = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите целое число");
+// int n = Convert.ToInt32(Console.ReadLine());
 
-int result = 0;
-int sum = 0;
+// int result = 0;
+// int sum = 0;
 
-for (int i = 1; i < n; i++)
+// for (int i = 0; i < n; i++)
+// {
+//     result = (2 * i) * (2 * i);
+//     sum = sum + result;
+//     Console.WriteLine(sum);
+
+// }
+// Console.WriteLine(result);
+
+// Вычислить сумму 1 + 1/3 + 1/3v2 +  … + 1/3v8. Операцию возведения в степень не использовать.
+
+double sum = 0;
+double result = 0;
+int product = 1;
+int n = 3;
+
+for (int i = 1; i <= 8; i++)
 {
-    result = (2 * n) * 2;
-    sum = sum + result;
+    result = 1 / (1 * product);
+    product = product * n;
+    sum = sum + product;
+
+    Console.WriteLine(product);
+    Console.WriteLine();
+    
     Console.WriteLine(sum);
-
 }
-
-Console.WriteLine(result);
