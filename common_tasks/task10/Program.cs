@@ -53,6 +53,14 @@ if (num1 < num2 && num1 < num2) min = num1;
 if (num2 < num1 && num2 < num3) min = num2;
 if (num3 < num1 && num3 < num2) min = num3;
 
+if (max == num1) Console.WriteLine($"Самое длинное название города это {siti1}");
+if (max == num2) Console.WriteLine($"Самое длинное название города это {siti2}");
+if (max == num3) Console.WriteLine($"Самое длинное название города это {siti3}");
+
+if (min == num1) Console.WriteLine($"Самое короткое название города это {siti1}");
+if (min == num2) Console.WriteLine($"Самое короткое название города это {siti2}");
+if (min == num3) Console.WriteLine($"Самое короткое название города это {siti3}");
 
 
-Console.WriteLine($"Самое длинное название города это {max}, самое короткое название города это {min}");
+
+// Console.WriteLine($"Самое длинное название города это {max}, самое короткое название города это {min}");
